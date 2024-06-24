@@ -4,5 +4,7 @@
 #include "BP_UC_GameMode.h"
 
 
-
-
+ABP_UC_GameMode::ABP_UC_GameMode()
+{
+	
+}
