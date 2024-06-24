@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "{561AA744-42B5-7037-1FE1-2886E4EE3226}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "UdemyCourse",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
