@@ -8,8 +8,10 @@ public class UdemyCourseTarget : TargetRules
 	public UdemyCourseTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "UdemyCourse" } );
+		
+		Name = "UdemyCourseEditor";
 	}
 }
